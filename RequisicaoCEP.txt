@@ -1,0 +1,14 @@
+--- exec:3.1.0:exec (default-cli) @ lab7pt2 ---
+Principal: envia mensagem para o servidor
+
+---Requisicao1---
+Request SOAP Message:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/"><SOAP-ENV:Header/><SOAP-ENV:Body><ns2:consultaCEP><cep>86812460</cep></ns2:consultaCEP></SOAP-ENV:Body></SOAP-ENV:Envelope>Response SOAP Message:
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"><soap:Body><soap:Fault><faultcode>soap:Server</faultcode><faultstring>A autenticacao de null falhou!</faultstring><detail><ns2:AutenticacaoException xmlns:ns2="http://cliente.bean.master.sigep.bsb.correios.com.br/">A autenticacao de null falhou!</ns2:AutenticacaoException></detail></soap:Fault></soap:Body></soap:Envelope>
+Fim!
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  1.019 s
+Finished at: 2025-06-16T18:33:46-03:00
+------------------------------------------------------------------------

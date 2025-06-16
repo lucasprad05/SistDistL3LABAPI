@@ -1,0 +1,13 @@
+--- exec:3.1.0:exec (default-cli) @ labl3 ---
+PrincipalAPI: envia mensagem para o servidor
+Basic NDAwNTMwMDY4NTI6VXdHaUlVeWdCbW5oelZweHl0RnJlWHlQTUJtUWhwR3RPbmM1Y3RvNQ==
+Response: 201
+(POST https://api.correios.com.br/token/v1/autentica) 201
+{"ambiente":"PRODUCAO","id":"40053006852","ip":"191.242.245.253, 192.168.1.132","perfil":"PF","cpf":"40053006852","categoria":"Id0","emissao":"2025-06-16T18:32:42","expiraEm":"2025-06-17T18:32:42","zoneOffset":"-03:00","token":"eyJhbGciOiJSUzI1NiJ9.eyJpYXQiOjE3NTAxMDk1NjIsImlzcyI6InRva2VuLXNlcnZpY2UiLCJleHAiOjE3NTAxOTU5NjIsImp0aSI6IjY2YzE0MzQ5LTE4ZmUtNDJlZi05MTM0LWFlNWE4NjIwNTY3OCIsImFtYmllbnRlIjoiUFJPRFVDQU8iLCJwZmwiOiJQRiIsImlwIjoiMTkxLjI0Mi4yNDUuMjUzLCAxOTIuMTY4LjEuMTMyIiwiY2F0IjoiSWQwIiwiY3BmIjoiNDAwNTMwMDY4NTIiLCJpZCI6IjQwMDUzMDA2ODUyIn0.S1Blee9w4-yI1-nWZIhlgI1ANxb1KReoKCQ8-O_0BXI4ngnCIHqblm177_qgIgfH6VIC0HfKj_RAECc9k7Fgs-39eB_xA_-dWAesaRIqxcHqVAMFSr0YMYIx2Wjw4NanHiBn2m3C53BmNm2yXfP74v0EXeLcZtDFq3lLfqYvhUtJlPCka46hyY8jL7ZfiMssQ4jFKeMD1vxz3ixkrR0NBhAA8ffynyYc9L7iDC-z8pj92iF5fxwyWTsFQxyAjVt5X2RsLotvtLNqQjnCR0QRWGFRVH0sqRXJ5GiXsVradW22EyjuapMFBL4ylAX8FOoSW2k67RV9WW9BWDB_RdBE0g"}
+Fim!
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time:  1.411 s
+Finished at: 2025-06-16T18:32:42-03:00
+------------------------------------------------------------------------
